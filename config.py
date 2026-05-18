@@ -81,7 +81,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", 52428800))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2097152099999))
 # Checkout https://www.gbmb.org/mb-to-bytes for converting mb to bytes
 
-PRIVATE_BOT_MODE_MEM = int(getenv("PRIVATE_BOT_MODE_MEM", 5))
+PRIVATE_BOT_MODE_MEM = int(getenv("PRIVATE_BOT_MODE_MEM", 2))
 
 # Broadcast system temp values
 CACHE_DURATION = 3600  # 1 hour in seconds
