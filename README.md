@@ -101,8 +101,10 @@ The AyuX Music Bot offers a range of commands to enhance your music listening ex
 | `/pause`                | Pause the currently playing song.           |
 | `/resume`               | Resume the paused song.                     |
 | `/skip`                 | Move to the next song in the queue.         |
-| `/stop`                 | Stop the bot and clear the queue.           |
+| `/end`                  | Stop the stream and clear the queue.        |
 | `/queue`                | Display the list of songs in the queue.     |
+| `/tagall <message>`     | Tag all group members with a message.       |
+| `/stop`                 | Stop an active tagall process.              |
 
 For a full list of commands, use `/help` in [telegram](https://t.me/SkyBeatzBot).
 
