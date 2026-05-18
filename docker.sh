@@ -14,9 +14,9 @@ echo \
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin git vim curl  -y
 
-docker build -t VivaanXop .
-docker container rm VivaanXop -f > /dev/null
-docker run -d --restart=always --name VivaanXop VivaanXop
+docker build -t AyuXop .
+docker container rm AyuXop -f > /dev/null
+docker run -d --restart=always --name AyuXop AyuXop
 
 sleep 2
 echo "Error 6783976546789098765"

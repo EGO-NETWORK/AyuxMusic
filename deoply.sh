@@ -1,4 +1,4 @@
-docker container rm VivaanXop -f > /dev/null
+docker container rm AyuXop -f > /dev/null
 sleep 2
-echo "Starting and Deploying Bot as VivaanXop"
-docker run -d --restart=always --name VivaanXop VivaanXop
+echo "Starting and Deploying Bot as AyuXop"
+docker run -d --restart=always --name AyuXop AyuXop

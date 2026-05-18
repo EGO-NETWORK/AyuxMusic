@@ -2,6 +2,11 @@ import re
 from os import getenv
 
 from dotenv import load_dotenv
+
+from compat import ensure_event_loop
+
+ensure_event_loop()
+
 from pyrogram import filters
 
 load_dotenv()
@@ -47,15 +52,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SkyBotsDeveloper/VivaanXmusic2.0",
+    "https://github.com/SkyBotsDeveloper/AyuxMusic",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VivaanUpdates")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/VivaanSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EGOxUPDATES")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/EGOxSUPPORT")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -101,18 +106,18 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = ["https://files.catbox.moe/hkh8gr.jpg",
-                 "https://files.catbox.moe/hkh8gr.jpg",
-                 "https://files.catbox.moe/hkh8gr.jpg",]
+START_IMG_URL = ["https://files.catbox.moe/ogrl65.jpg",
+                 "https://files.catbox.moe/ogrl65.jpg",
+                 "https://files.catbox.moe/ogrl65.jpg",]
     
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/hkh8gr.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/ogrl65.jpg"
 )
 PLAYLIST_IMG_URL = "https://files.catbox.moe/uxcm48.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/pguloz.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/hkh8gr.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/hkh8gr.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/hkh8gr.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/htkfxd.png"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/ogrl65.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/ogrl65.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/ogrl65.jpg"
 SOUNCLOUD_IMG_URL = "https://graph.org/file/c95a687e777b55be1c792.jpg"
 YOUTUBE_IMG_URL = "https://graph.org/file/e8730fdece86a1166f608.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://strad-dev131.github.io/TeamXsrc/img/sp_artist.jpg"

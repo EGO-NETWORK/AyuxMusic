@@ -240,7 +240,7 @@ class BotWatchdog:
         self.max_restarts = 5
         self.restart_interval = 60
         self.last_restart = 0
-        self.bot_script = "python3 -m VivaanXmusic"
+        self.bot_script = "python3 -m AyuXmusic"
         self.working_dir = os.path.dirname(os.path.abspath(__file__))
         self.log_monitor = LogMonitor()
         self.log_check_interval = 30  # Increased from 10 to 30 seconds

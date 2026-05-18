@@ -12,3 +12,6 @@ watchdog.log
 logs.txt
 unknown_errors.txt
 .env
+cookies/*.txt
+cookies/*.csv
+!cookies/.gitkeep

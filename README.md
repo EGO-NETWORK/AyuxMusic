@@ -1,15 +1,15 @@
-<h1 align="center"> ──「🎵 VIVAAN x MUSIC 2.0 」──</h1>
+<h1 align="center"> ──「🎵 Ayu x MUSIC 」──</h1>
 
 <p align="center">
-  <img src="https://files.catbox.moe/3m7pfb.jpg" alt="VivaanX Music Logo" width="600" height="400">
+  <img src="https://files.catbox.moe/76uwz3.png" alt="AyuX Music Logo" width="600" height="400">
 </p>
 
 <h3 align="center">Delivering Superior Music Experience to Telegram</h3>
 
 <p align="center">
-  <a href="https://t.me/VivaanSupport"><img src="https://img.shields.io/badge/Support-Group-blue?style=for-the-badge&logo=telegram"></a>
-  <a href="https://t.me/VivaanUpdates"><img src="https://img.shields.io/badge/Updates-Channel-blue?style=for-the-badge&logo=telegram"></a>
-  <a href="https://github.com/SkyBotsDeveloper/VivaanXmusic2.0/blob/main/LICENSE"><img src="https://img.shields.io/github/license/informasgher89745/VivaanX2?style=for-the-badge"></a>
+  <a href="https://t.me/EGOxSUPPORT"><img src="https://img.shields.io/badge/Support-Group-blue?style=for-the-badge&logo=telegram"></a>
+  <a href="https://t.me/EGOxUPDATES"><img src="https://img.shields.io/badge/Updates-Channel-blue?style=for-the-badge&logo=telegram"></a>
+  <a href="https://github.com/SkyBotsDeveloper/AyuxMusic/blob/main/LICENSE"><img src="https://img.shields.io/github/license/informasgher89745/AyuX2?style=for-the-badge"></a>
 </p>
 
 ---
@@ -42,7 +42,7 @@
 
 Click the button below to deploy the bot on Heroku instantly:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/SkyBotsDeveloper/VivaanXmusic2.0)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/SkyBotsDeveloper/AyuxMusic)
 
 ---
 
@@ -67,7 +67,7 @@ Click the button below to deploy the bot on Heroku instantly:
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/SkyBotsDeveloper/VivaanXmusic2.0 && cd VivaanXmusic2.0
+   git clone https://github.com/SkyBotsDeveloper/AyuxMusic && cd AyuxMusic
    ```
 6. **Install Requirements**
    ```bash
@@ -93,7 +93,7 @@ Click the button below to deploy the bot on Heroku instantly:
 
 ### 🛠 Commands & Usage
 
-The VivaanX Music Bot offers a range of commands to enhance your music listening experience on Telegram:
+The AyuX Music Bot offers a range of commands to enhance your music listening experience on Telegram:
 
 | Command                 | Description                                 |
 |-------------------------|---------------------------------------------|
@@ -110,13 +110,13 @@ For a full list of commands, use `/help` in [telegram](https://t.me/SkyBeatzBot)
 
 ### 🔄 Updates & Support
 
-Stay updated with the latest features and improvements to VivaanX Music Bot:
+Stay updated with the latest features and improvements to AyuX Music Bot:
 
 <p align="center">
-  <a href="https://t.me/VivaanSupport">
+  <a href="https://t.me/EGOxSUPPORT">
     <img src="https://img.shields.io/badge/Join-Support%20Group-blue?style=for-the-badge&logo=telegram">
   </a>
-  <a href="https://t.me/VivaanUpdates">
+  <a href="https://t.me/EGOxUPDATES">
     <img src="https://img.shields.io/badge/Join-Update%20Channel-blue?style=for-the-badge&logo=telegram">
   </a>
 </p>
@@ -125,7 +125,7 @@ Stay updated with the latest features and improvements to VivaanX Music Bot:
 
 ### 🤝 Contributing
 
-We welcome contributions to the VivaanX Music Bot project. If you'd like to contribute, please follow these steps:
+We welcome contributions to the AyuX Music Bot project. If you'd like to contribute, please follow these steps:
 
 1. Fork the repository.
 2. Create a new branch with a meaningful name.
@@ -145,5 +145,5 @@ This project is licensed under the MIT License. For more details, see the [LICEN
 
 ### 🙏 Acknowledgements
 
-Thanks to all the contributors, supporters, and users of the VivaanX Music Bot. Your feedback and support keep us going!
+Thanks to all the contributors, supporters, and users of the AyuX Music Bot. Your feedback and support keep us going!
 

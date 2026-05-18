@@ -1,12 +1,12 @@
 {
-    "name": " ──「 Vivaan X Music 」── ",
+    "name": " ──「 Ayu X Music 」── ",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://graph.org/file/e47d7251464ca14a7f576.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "VivaanX",
+    "AyuX",
     "MusicBot",
     "telegram-bot",
     "pyrogram"
