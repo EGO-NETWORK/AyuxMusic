@@ -1,3 +1,4 @@
+import asyncio
 import time
 import random
 import re
@@ -26,6 +27,18 @@ from config import BANNED_USERS, LOGGER_ID
 from strings import get_string
 from AyuXmusic import LOGGER
 
+START_STICKER_ID = "CAACAgUAAxkBAALEzmoLEhhf9fR0B3wbOrS7QtSvInpPAAK1IAACVi1RVAt0S_QFFYk4HgQ"
+
+
+async def send_start_sticker(message: Message):
+    sticker = await message.reply_sticker(START_STICKER_ID)
+    await asyncio.sleep(2)
+    try:
+        await sticker.delete()
+    except Exception:
+        pass
+
+
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
 async def start_pm(client, message: Message, _):
@@ -34,7 +47,7 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAx0CdQO5IgACMTplUFOpwDjf-UC7pqVt9uG659qxWQACfQkAAghYGFVtSkRZ5FZQXDME")
+            await send_start_sticker(message)
             return await message.reply_photo(
                 photo=random.choice(config.START_IMG_URL),
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
@@ -105,7 +118,7 @@ async def start_pm(client, message: Message, _):
                 )
     else:
         out = private_panel(_)
-        await message.reply_sticker("CAACAgUAAx0CdQO5IgACMTplUFOpwDjf-UC7pqVt9uG659qxWQACfQkAAghYGFVtSkRZ5FZQXDME")
+        await send_start_sticker(message)
         await message.reply_photo(
             photo=random.choice(config.START_IMG_URL),
             caption=_["start_2"].format(message.from_user.mention, app.mention),
