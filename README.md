@@ -105,6 +105,8 @@ The AyuX Music Bot offers a range of commands to enhance your music listening ex
 | `/queue`                | Display the list of songs in the queue.     |
 | `/tagall <message>`     | Tag all group members with a message.       |
 | `/stop`                 | Stop an active tagall process.              |
+| `/utag`                 | Tag members one-by-one with random lines.   |
+| `/ustop`                | Stop an active utag process.                |
 
 For a full list of commands, use `/help` in [telegram](https://t.me/SkyBeatzBot).
 
