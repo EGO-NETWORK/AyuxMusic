@@ -15,6 +15,12 @@ def start_panel(_):
             ),
             InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
         ],
+        [
+            InlineKeyboardButton(
+                text=_["S_B_10"],
+                url=f"tg://user?id={config.OWNER_ID}",
+            ),
+        ],
     ]
     return buttons
 
@@ -44,6 +50,12 @@ def private_panel(_):
         ],
         [
             InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["S_B_10"],
+                url=f"tg://user?id={config.OWNER_ID}",
+            ),
         ],
     ]
     return buttons
