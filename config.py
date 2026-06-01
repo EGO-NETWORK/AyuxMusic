@@ -22,7 +22,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Vars For API End Pont.
-YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## E.G https://yt.okflix.
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://api.shrutibots.site') ## E.G https://yt.okflix.
 YT_API_KEY = getenv("YT_API_KEY", None )
 WORKER_FALLBACK_API_URL = getenv(
     "WORKER_FALLBACK_API_URL",
